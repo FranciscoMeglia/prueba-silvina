@@ -6,6 +6,9 @@ import { Banner } from '../../components/banner/Banner'
 import { Card } from './card/Card'
 
 export const Opiniones = () => {
+
+  document.body.style.overflowX= "hidden"
+  
   return (
     <div className='opiniones'>
       <Navbar></Navbar>
