@@ -433,7 +433,7 @@ html , body {
   }
 
   .title-icon h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .dra-info p {
@@ -445,7 +445,7 @@ html , body {
   }
 
   .works-container h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .works-container p {
@@ -453,11 +453,11 @@ html , body {
   }
 
   .why-container h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .reservation-info h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .reservation-info p {
@@ -466,9 +466,15 @@ html , body {
 
   .app .socials-fixed {
     left: calc(50% - 60px);
-    top: calc(100vh - 100px);
+    top: calc(100vh - 200px);
     flex-direction: row;
     width: 120px;
     height: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner h1 {
+    font-size: 40px;
   }
 }
