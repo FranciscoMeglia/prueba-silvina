@@ -466,7 +466,7 @@ html , body {
 
   .app .socials-fixed {
     left: calc(50% - 60px);
-    top: calc(100vh - 200px);
+    top: calc(100vh - 70px);
     flex-direction: row;
     width: 120px;
     height: 60px;
