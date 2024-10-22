@@ -32,7 +32,7 @@ export const Navbar = () => {
     <nav className={nav}>
       <div className="nav-container">
         <div className="nav-container-1">
-            <img src={logo} alt="" />
+            <Link to={"/"}><img src={logo} alt="logo" /></Link> 
         </div>
 
         <div className="nav-container-2">

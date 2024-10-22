@@ -80,7 +80,6 @@ function App() {
                 <p>MELA</p>
                 <Link to={"./Mela"}><img src={arrowIcon} alt="arrow icon" /></Link>
               </div>
-
             </div>
             <div className="works-card" data-aos="fade-up">
               <div className="card-info">

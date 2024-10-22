@@ -203,6 +203,9 @@ html , body {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.164);
   border-radius: 10px;
   transition: 1s;
+  background-image: url(https://www.drdamiangaleazzo.com/wp-content/uploads/2021/02/MELA.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .works-container .cards-container .works-card .card-info {
@@ -358,9 +361,6 @@ html , body {
 @media screen and (max-width: 1200px) {
 
   /* BANNER */
-  .app .banner {
-    /* background-color: #ED406E; */
-  }
 
   /* ABOUT */
   .about .about-container {
