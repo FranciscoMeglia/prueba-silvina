@@ -70,16 +70,20 @@ ul li {
     background-color: white;
 }
 
-.navMobile .nav-container .nav-container-1 {
-    display: none;
+.navMobile .nav-container .nav-container-1 img {
+    position: absolute;
+    top: 9px;
+    left: 30px;
 }
 
 .navMobile .nav-container .nav-container-2 ul {
     flex-direction: column;
+    align-items: start;
 }
 
 .navMobile .nav-container .nav-container-2 ul li a {
-    color: black;
+    color: #ED406E;
+    font-weight: 500;
 }
 
 .navMobile .nav-container .nav-container-2 .navIcon {

@@ -28,7 +28,7 @@ function App() {
       <Navbar></Navbar>
       <div className="banner">
         <h1>Dra Silvina Aranda</h1>
-        <a href="">RESERVAR</a>
+        <a href="">AGENDÁ TU CITA</a>
       </div>
       {/* ABOUT SECTION */}
       <section className="about">
@@ -75,26 +75,30 @@ function App() {
           <h2>PROCEDIMIENTOS</h2>
           <p>Mela , Corporales y Faciales</p>
           <div className="cards-container">
+          <Link to={"./Mela"}>
             <div className="works-card" data-aos="fade-up">
               <div className="card-info">
                 <p>MELA</p>
-                <Link to={"./Mela"}><img src={arrowIcon} alt="arrow icon" /></Link>
+                <img src={arrowIcon} alt="arrow icon" />
               </div>
             </div>
+            </Link>
+            <Link to={"./Corporales"}>
             <div className="works-card" data-aos="fade-up">
               <div className="card-info">
                 <p>CORPORALES</p>
-                <Link to={"./Corporales"}><img src={arrowIcon} alt="arrow icon" /></Link>
+                <img src={arrowIcon} alt="arrow icon" />
               </div>
-
             </div>
+            </Link>
+            <Link to={"./Faciales"}>
             <div className="works-card" data-aos="fade-up">
               <div className="card-info">
                 <p>FACIALES</p>
-                <Link to={"./Faciales"}><img src={arrowIcon} alt="arrow icon" /></Link>
+                <img src={arrowIcon} alt="arrow icon" />
               </div>
-
             </div>
+            </Link>
           </div>
         </div>
 
@@ -102,7 +106,7 @@ function App() {
       {/* WHY SECTION */}
       <section className="why">
         <div className="why-container">
-          <h2>¿ POR QUE ELEGIRNOS ?</h2>
+          <h2>¿POR QUÉ ELEGIRNOS?</h2>
           <div className="why-cards-container">
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">01</h3>
@@ -135,9 +139,9 @@ function App() {
       {/* RESERVATION SECTION */}
       <div className="reservation">
         <div className="reservation-info">
-          <h2>REALIZAR RESERVA</h2>
-          <p>¡ Encontra el cambio que buscas con nosotros !</p>
-          <a href="">RESERVAR</a>
+          <h2>AGENDÁ TU CITA</h2>
+          <p>¡Encontrá el cambio que buscás con nosotros!</p>
+          <a href="">AGENDA TU CITA</a>
         </div>
 
       </div>

@@ -64,6 +64,11 @@ html , body {
   border-radius: 10px;
   text-decoration: none;
   color: var(--white-color);
+  transition: 0.2s;
+}
+
+.banner a:hover {
+  background-color: var(--smothpink-color);
 }
 
 /* ABOUT SECTION */

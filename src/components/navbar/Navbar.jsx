@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/Iso-2.png'
-import navIcon from '../../assets/navIcon.webp'
+import navIconPink from '../../assets/navIconPink.png'
 
 export const Navbar = () => {
 
@@ -42,7 +42,7 @@ export const Navbar = () => {
             <li className='link'><Link to={"/Opiniones"}>OPINIONES</Link></li>
             <li className='link'><Link to={"/Contacto"}>CONTACTO</Link></li>
           </ul>
-          <img className='navIcon' src={navIcon} alt="navIcon" onClick={() => {changeNav()}}/>
+          <img className='navIcon' src={navIconPink} alt="navIcon" onClick={() => {changeNav()}}/>
         </div>
 
       </div>    

@@ -8,7 +8,7 @@ export const Mela = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Banner title={"MELA"} subtitle={"Mini extraccion lipidica !"}></Banner>
+      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"}></Banner>
       <div className="container-mela">
         <div className="pink-line"></div>
         <p>La mini liposucción o MELA es un procedimiento mínimamente invasivo, ideal para aquellos pacientes que quieren disminuir adiposidades localizadas que no logran reducirse con ejercicio, y que quieren ver resultados inmediatos. <br /><br />(Se puede hacer con Láser Lumiia y con Renuvion J Plasma)
