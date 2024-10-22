@@ -16,6 +16,8 @@ function App() {
     AOS.init()
   }, [])
 
+  document.body.style.overflowX= "hidden"
+
   return (
     <div className="app">
       <div className="socials-fixed">
