@@ -7,7 +7,9 @@ import { Footer } from '../../components/footer/Footer'
 export const Corporales = () => {
   return (
     <div>
+      <div className="navbar-container">
       <Navbar></Navbar>
+      </div>
       <Banner title={"TRATAMIENTOS"} subtitle={"CORPORALES"}></Banner>
       <div className="container-corporales">
         <div className="pink-line"></div>

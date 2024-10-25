@@ -1,3 +1,8 @@
+.opiniones .navbar-container {
+    background-image: url(/src/assets/ED406E.png);
+    background-attachment: fixed;
+}
+
 .opiniones .cards-container .pink-line {
     width: 585px;
     height: 5px;
@@ -33,10 +38,17 @@
 .reseña-container .reseña {
     padding: 15px 80px;
     background-color: var(--strongpink-color);
+    font-family: var(--font-montserrat);
+    font-weight: 600;
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.reseña-container .reseña:hover {
+    background-color: var(--smothpink-color);
 }
 
 /* RESPONSIVE */

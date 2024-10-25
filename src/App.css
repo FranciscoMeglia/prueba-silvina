@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --white-color: #FFF;
   --gray-color: #F5F5F5;
   --smothpink-color: #FF93B3;
   --strongpink-color: #ED406E;
   --black-color: rgba(0, 0, 0, 0.781);
+  --font-montserrat: "Montserrat", sans-serif;
 }
 
 html , body {
@@ -34,32 +37,47 @@ html , body {
 
 .app .socials-fixed img {
   width: 50px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.app .socials-fixed img:hover {
+  opacity: 0.7;
 }
 
 /* MAIN SECTION */
 .app .banner {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh);
   background-color: rgb(126, 107, 126);
-  /* background-image: url(https://tatamiarquitectos.com/wp-content/uploads/2019/04/ccc-01-min.jpg);
-  background-size: cover; */
+  background-image: url(./assets/ED406E.png);
+  background-attachment: fixed;
+  display: block;
+}
+
+.banner .banner-main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: calc(100vh - 70px);
 }
 
-.banner h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
+.banner .banner-main h1 {
+  font-family: var(--font-montserrat);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
   color: var(--white-color);
   margin: 0;
 }
 
-.banner a {
-  font-family: Arial, Helvetica, sans-serif;
+.banner .banner-main a {
+  font-family: var(--font-montserrat);
   padding: 20px 100px;
   margin-top: 20px;
+  font-weight: 600;
   background-color: var(--strongpink-color);
   border-radius: 10px;
   text-decoration: none;
@@ -67,7 +85,7 @@ html , body {
   transition: 0.2s;
 }
 
-.banner a:hover {
+.banner .banner-main a:hover {
   background-color: var(--smothpink-color);
 }
 
@@ -104,7 +122,8 @@ html , body {
 }
 
 .title-icon h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
   font-size: 40px;
   margin: 0;
   text-align: center;
@@ -113,7 +132,8 @@ html , body {
 
 .dra-info p {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 400;
   font-size: 25px;
   color: var(--strongpink-color);
   margin: 0;
@@ -131,7 +151,7 @@ html , body {
 
 .about-cards-container .about-card {
   width: 370px;
-  height: 275px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,17 +169,14 @@ html , body {
 
 .about-card .info {
   width: 300px;
-  height: 100%;
+  height: auto;
 }
 
-
-
-
-
-
-
-
-
+.about-card .info p {
+  font-family: var(--font-montserrat);
+  font-size: 20px;
+  font-weight: 300;
+}
 
 /* WORKS SECTION */
 .app .works {
@@ -177,7 +194,8 @@ html , body {
 }
 
 .works-container h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
   font-size: 40px;
   margin: 0;
   text-align: center;
@@ -186,11 +204,12 @@ html , body {
 
 .works-container p {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 400;
   font-size: 25px;
   color: var(--strongpink-color);
   margin: 0;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .works-container .cards-container {
@@ -213,10 +232,14 @@ html , body {
   background-position: center;
 }
 
+.works-container .cards-container .works-card:hover {
+  scale: 1.03;
+}
+
 .works-container .cards-container .works-card .card-info {
   width: 100%;
   height: 50px;
-  background-color: var(--smothpink-color);
+  background-color: var(--strongpink-color);
   position: absolute;
   bottom: 0;
   border-bottom-left-radius: 10px;
@@ -227,6 +250,8 @@ html , body {
 }
 
 .works-container .cards-container .works-card .card-info p {
+  font-family: var(--font-montserrat);
+  font-weight: 500;
   margin: 0;
   padding-left: 20px;
   font-size: 20px;
@@ -259,7 +284,8 @@ html , body {
 }
 
 .why-container h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
   font-size: 40px;
   margin: 0;
   text-align: center;
@@ -302,12 +328,17 @@ html , body {
   bottom: 0;
   right: 0;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.why-card .info:hover {
+  opacity: 1;
 }
 
 .info p {
   width: 90%;
   margin-left: 5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
   font-size: 20px;
 }
 /* RESERVATION SECTION */
@@ -332,7 +363,8 @@ html , body {
 }
 
 .reservation-info h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
   font-size: 40px;
   margin: 0;
   text-align: center;
@@ -341,14 +373,16 @@ html , body {
 
 .reservation-info p {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 400;
   font-size: 25px;
   color: var(--strongpink-color);
   margin: 0;
 }
 
 .reservation-info a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 600;
   padding: 15px 80px;
   margin-top: 20px;
   background-color: var(--strongpink-color);
@@ -407,7 +441,7 @@ html , body {
 
   .about .about-container .about-cards-container .about-card {
     width: 400px;
-    height: 245px;
+    height: 280px;
   }
 
   .about .about-container .about-cards-container .about-card .info {
@@ -433,8 +467,12 @@ html , body {
 }
 
 @media screen and (max-width: 800px) {
-  .banner h1 {
-    font-size: 50px;
+  .banner .banner-main h1 {
+    font-size: 45px;
+  }
+
+  .banner .banner-main a {
+    padding: 15px 70px;
   }
 
   .title-icon h2 {
@@ -478,8 +516,33 @@ html , body {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .banner h1 {
-    font-size: 40px;
+@media screen and (max-width: 550px) {
+  .banner .banner-main h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .why-card .number {
+    font-size: 70px;
+  }
+
+  .why-card .info {
+    width: 90%;
+    height: 88%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about .about-container .about-cards-container .about-card {
+    width: 100%;
+    height: 340px;
+  }
+
+  .title-icon h2 {
+    font-size: 23px;
+  }
+  
+  .dra-info p {
+    font-size: 20px;
   }
 }

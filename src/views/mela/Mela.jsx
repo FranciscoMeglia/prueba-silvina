@@ -7,7 +7,9 @@ import { Banner } from '../../components/banner/Banner'
 export const Mela = () => {
   return (
     <div>
+      <div className="navbar-container">
       <Navbar></Navbar>
+      </div>
       <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"}></Banner>
       <div className="container-mela">
         <div className="pink-line"></div>

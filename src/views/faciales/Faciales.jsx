@@ -7,7 +7,9 @@ import { Banner } from '../../components/banner/Banner'
 export const Faciales = () => {
   return (
     <div>
+      <div className="navbar-container">
       <Navbar></Navbar>
+      </div>
       <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"}></Banner>
       <div className="container-faciales">
         <div className="pink-line"></div>

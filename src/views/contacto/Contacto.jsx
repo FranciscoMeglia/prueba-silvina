@@ -26,8 +26,10 @@ export const Contacto = () => {
 
   return (
     <div>
+      <div className="navbar-container">
       <Navbar></Navbar>
-      <Banner title={"CONTACTO"} subtitle={"ESPERAMOS TU MENSAJE"}></Banner>
+      </div>
+      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"}></Banner>
       <div className="contact-container">
         <div className="pink-line"></div>
         <form action="" onSubmit={submit}>

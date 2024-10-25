@@ -1,3 +1,8 @@
+.navbar-container {
+    background-image: url(/src/assets/ED406E.png);
+    background-attachment: fixed;
+}
+
 .contact-container {
     width: 1200px;
     height: auto;

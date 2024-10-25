@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import logo from '../../assets/Iso-2.png'
-import navIconPink from '../../assets/navIconPink.png'
+import navIconWhite from '../../assets/navIconWhite.png'
+import logo from '../../assets/Iso-3.png'
 
 export const Navbar = () => {
 
@@ -42,7 +42,7 @@ export const Navbar = () => {
             <li className='link'><Link to={"/Opiniones"}>OPINIONES</Link></li>
             <li className='link'><Link to={"/Contacto"}>CONTACTO</Link></li>
           </ul>
-          <img className='navIcon' src={navIconPink} alt="navIcon" onClick={() => {changeNav()}}/>
+          <img className='navIcon' src={navIconWhite} alt="navIcon" onClick={() => {changeNav()}}/>
         </div>
 
       </div>    

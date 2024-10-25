@@ -16,7 +16,7 @@ function App() {
     AOS.init()
   }, [])
 
-  document.body.style.overflowX= "hidden"
+  document.body.style.overflowX = "hidden"
 
   return (
     <div className="app">
@@ -25,10 +25,12 @@ function App() {
         <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={whatsappIcon} alt="whastapp icon" /></a>
       </div>
       {/* MAIN SECTION */}
-      <Navbar></Navbar>
       <div className="banner">
-        <h1>Dra Silvina Aranda</h1>
-        <a href="">AGENDÁ TU CITA</a>
+        <Navbar></Navbar>
+        <div className="banner-main">
+          <h1>DRA SILVINA ARANDA</h1>
+          <a href="">AGENDÁ TU CITA</a>
+        </div>
       </div>
       {/* ABOUT SECTION */}
       <section className="about">
@@ -38,7 +40,7 @@ function App() {
               <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="dra silvina aranda picture" />
               <h2>DRA SILVINA ARANDA</h2>
             </div>
-            <p>CIRUGIA PLASTICA ESTETICA Y REPARADORA</p>
+            <p>Cirugia plastica estetica & reparadora</p>
           </div>
           <div className="about-cards-container">
             <div className="about-card">
@@ -75,29 +77,29 @@ function App() {
           <h2>PROCEDIMIENTOS</h2>
           <p>Mela , Corporales y Faciales</p>
           <div className="cards-container">
-          <Link to={"./Mela"}>
-            <div className="works-card" data-aos="fade-up">
-              <div className="card-info">
-                <p>MELA</p>
-                <img src={arrowIcon} alt="arrow icon" />
+            <Link to={"./Mela"}>
+              <div className="works-card" data-aos="fade-up">
+                <div className="card-info">
+                  <p>MELA</p>
+                  <img src={arrowIcon} alt="arrow icon" />
+                </div>
               </div>
-            </div>
             </Link>
             <Link to={"./Corporales"}>
-            <div className="works-card" data-aos="fade-up">
-              <div className="card-info">
-                <p>CORPORALES</p>
-                <img src={arrowIcon} alt="arrow icon" />
+              <div className="works-card" data-aos="fade-up">
+                <div className="card-info">
+                  <p>CORPORALES</p>
+                  <img src={arrowIcon} alt="arrow icon" />
+                </div>
               </div>
-            </div>
             </Link>
             <Link to={"./Faciales"}>
-            <div className="works-card" data-aos="fade-up">
-              <div className="card-info">
-                <p>FACIALES</p>
-                <img src={arrowIcon} alt="arrow icon" />
+              <div className="works-card" data-aos="fade-up">
+                <div className="card-info">
+                  <p>FACIALES</p>
+                  <img src={arrowIcon} alt="arrow icon" />
+                </div>
               </div>
-            </div>
             </Link>
           </div>
         </div>
@@ -111,13 +113,13 @@ function App() {
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">01</h3>
               <div className="info">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aliquid ut sed alias non est animi sunt reiciendis ipsa voluptate, exercitationem aspernatur culpa, at sit nobis, fugit quis expedita quia? s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aliquid ut sed alias non est animi sunt reiciendis ipsa voluptate, exercitationem aspernatur culpa, at sit nobis, fugit quis expedita quia? s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
               </div>
             </div>
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">02</h3>
               <div className="info">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel nobis suscipit modi id facilis! Voluptatem molestiae obcaecati, voluptates debitis sit possimus enim at eaque autem architecto. Voluptate provident quas est. s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel nobis suscipit modi id facilis! Voluptatem molestiae obcaecati, voluptates debitis sit possimus enim at eaque autem architecto. Voluptate provident quas est. s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
 
               </div>
 
@@ -125,7 +127,7 @@ function App() {
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">03</h3>
               <div className="info">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe labore mollitia optio voluptates deserunt dolor iure odit eaque accusamus! Atque expedita voluptas eius saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe labore mollitia optio voluptates deserunt dolor iure odit eaque accusamus! Atque expedita voluptas eius saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
 
               </div>
 
