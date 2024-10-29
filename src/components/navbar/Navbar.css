@@ -41,9 +41,6 @@
 
 .nav-container-1 img {
     width: 50px;
-    position: absolute;
-    top: 9px;
-    left: 30px;
 }
 
 /* NAV CONTAINER 2 STYLES */
@@ -140,6 +137,13 @@ ul li {
 }
 
 @media screen and (max-width: 800px) {
+
+    .nav .nav-container .nav-container-1 img {
+        position: absolute;
+        top: 9px;
+        left: 30px;
+    }
+    
     .nav .nav-container .nav-container-2 ul {
         display: none;
     }
