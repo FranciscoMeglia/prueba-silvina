@@ -19,9 +19,26 @@
 }
 
 .accordion-container .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 30px;
     margin: 0;
     padding-bottom: 20px;
     color: var(--black-color);
+}
+
+@media screen and (max-width: 1200px) {
+    .container-faciales {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-faciales .pink-line {
+        width: 100%;
+    }
+
+    .container-faciales .accordion-container .title {
+        font-size: 28px;
+    }
 }
