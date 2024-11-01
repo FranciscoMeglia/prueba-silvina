@@ -18,6 +18,18 @@
     height: auto;
 }
 
+.container-faciales  .collapsed {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+  }
+
+.container-faciales .noCollapsed {
+    background-color: var(--smothpink-color);
+    color: white;
+    box-shadow: none;
+}
+
 .accordion-container .title {
     font-family: var(--font-montserrat);
     font-weight: 600;

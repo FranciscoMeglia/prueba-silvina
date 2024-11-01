@@ -40,7 +40,7 @@ function App() {
               <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="dra silvina aranda picture" />
               <h2>DRA SILVINA ARANDA</h2>
             </div>
-            <p>Cirugia plastica estetica & reparadora</p>
+            <p>Cirugía plástica estética & reparadora</p>
           </div>
           <div className="about-cards-container">
             <div className="about-card">
@@ -75,7 +75,7 @@ function App() {
       <article className="works" id='work'>
         <div className="works-container">
           <h2>PROCEDIMIENTOS</h2>
-          <p>Mela , Corporales y Faciales</p>
+          <p>MELA , Corporales y Faciales</p>
           <div className="cards-container">
             <Link to={"./Mela"}>
               <div className="works-card" data-aos="fade-up">

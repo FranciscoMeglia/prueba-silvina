@@ -27,6 +27,18 @@
     color: var(--black-color);
 }
 
+.accordion-container  .collapsed {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+  }
+
+.accordion-container .noCollapsed {
+    background-color: var(--smothpink-color);
+    color: white;
+    box-shadow: none;
+}
+
 @media screen and (max-width: 1200px) {
     .container-corporales {
         width: 90%;

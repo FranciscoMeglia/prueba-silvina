@@ -86,7 +86,7 @@ form .container-3 {
 
 .container-3 button {
     font-family: var(--font-montserrat);
-    font-weight: 500;
+    font-weight: 600;
     width: 304px;
     height: 45px;
     border-radius: 5px;
@@ -95,7 +95,13 @@ form .container-3 {
     background-color: var(--strongpink-color);
     color: white;
     font-size: 18px;
+    transition: 0.2s;
 }
+
+.container-3 button:hover {
+    background-color: var(--smothpink-color);
+}
+
 
 .container-3 .recaptcha {
     margin-top: 20px;
@@ -114,7 +120,7 @@ form .container-3 {
 
 .contact-container .whatsapp button {
     font-family: var(--font-montserrat);
-    font-weight: 500;
+    font-weight: 600;
     width: 250px;
     height: 45px;
     border-radius: 5px;
@@ -122,6 +128,11 @@ form .container-3 {
     background-color: var(--strongpink-color);
     color: white;
     font-size: 18px;
+    transition: 0.2s;
+}
+
+.contact-container .whatsapp button:hover {
+    background-color: var(--smothpink-color);
 }
 
 @media screen and (max-width: 1200px) {

@@ -39,13 +39,31 @@
 .pictures-container .picture-card {
     width: 385px;
     height: 100%;
+    border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.158);
+    transition: 0.5s;
     background-image: url(https://www.drdamiangaleazzo.com/wp-content/uploads/2021/02/MELA.jpg);
+}
+
+.pictures-container .picture-card:hover {
+        box-shadow: 7px 7px 0px var(--strongpink-color);
 }
 
 .container-mela .accordion-container {
     width: 100%;
     height: auto;
+}
+
+.accordion-container  .collapsed {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+  }
+
+.accordion-container .noCollapsed {
+    background-color: var(--smothpink-color);
+    color: white;
+    box-shadow: none;
 }
 
 .accordion-container .title {

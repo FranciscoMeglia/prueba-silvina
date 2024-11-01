@@ -3,14 +3,44 @@ import './Corporales.css'
 import { Navbar } from '../../components/navbar/Navbar'
 import { Banner } from '../../components/banner/Banner'
 import { Footer } from '../../components/footer/Footer'
+import { useEffect } from 'react'
 
 export const Corporales = () => {
+
+  useEffect(() => {
+    const accordionButton = document.querySelectorAll(".accordion-button");
+
+    accordionButton.forEach((acBtn) => {
+      acBtn.addEventListener("click", () => {
+        accordionButton.forEach((actBtn2) => {
+          actBtn2.classList.remove("noCollapsed");
+          actBtn2.classList.add("collapsed");
+        });
+
+        if (acBtn.getAttribute("aria-expanded") === "true") {
+          acBtn.classList.remove("collapsed");
+          acBtn.classList.add("noCollapsed");
+        } else {
+          acBtn.classList.remove("noCollapsed");
+          acBtn.classList.add("collapsed");
+        }
+      });
+    });
+
+    // Cleanup: remover los eventos al desmontar el componente
+    return () => {
+      accordionButton.forEach((acBtn) => {
+        acBtn.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   return (
     <div>
       <div className="navbar-container">
       <Navbar></Navbar>
       </div>
-      <Banner title={"TRATAMIENTOS"} subtitle={"CORPORALES"}></Banner>
+      <Banner title={"TRATAMIENTOS"} subtitle={"Corporales"}></Banner>
       <div className="container-corporales">
         <div className="pink-line"></div>
         <div className="accordion-container">
