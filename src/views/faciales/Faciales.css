@@ -39,6 +39,19 @@
     color: var(--black-color);
 }
 
+.accordion-container .accordion-item .img-container {
+    width: 100%;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.accordion-container .accordion-item .img-container img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 1200px) {
     .container-faciales {
         width: 90%;

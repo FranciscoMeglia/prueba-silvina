@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import navIconWhite from '../../assets/navIconWhite.png'
-import logo from '../../assets/Iso-3.png'
+import navIconWhite from '../../assets/navIconWhite.webp'
+import logo from '../../assets/Iso-3.webp'
 
 export const Navbar = () => {
 

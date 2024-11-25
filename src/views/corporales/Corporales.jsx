@@ -27,7 +27,7 @@ export const Corporales = () => {
       });
     });
 
-    // Cleanup: remover los eventos al desmontar el componente
+    // remover los eventos al desmontar el componente
     return () => {
       accordionButton.forEach((acBtn) => {
         acBtn.removeEventListener("click", () => {});

@@ -4,6 +4,7 @@ import  { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import { useEffect } from 'react'
+import img1 from '../../assets/Mela1.webp'
 
 export const Faciales = () => {
 
@@ -131,6 +132,10 @@ Se realiza con anestesia local mas una leve sedacion para mayor confort. La recu
               <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 Es una proteína que se produce en nuestro cuerpo y es conocida por sus beneficios de hidratación y por mejorar el aspecto de las arrugas y ojeras para lograr una piel renovada.
+                {/* <div className="img-container">
+                  <img src={img1} alt="" />
+                  <img src={img1} alt="" />
+                </div> */}
                 </div>
               </div>
             </div>

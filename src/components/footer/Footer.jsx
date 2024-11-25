@@ -1,8 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../assets/Iso-3.png'
-import whatsappIcon from '../../assets/whastappIcon.png'
-import instagramIcon from '../../assets/instagramIcon.png'
+import logo from '../../assets/Iso-3.webp'
+import whatsappIcon from '../../assets/whastappIcon.webp'
+import instagramIcon from '../../assets//instagramIcon.webp'
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export const Footer = () => {
   return (
@@ -13,10 +15,10 @@ export const Footer = () => {
                 <div className="links-container">
                   <h3>MENU</h3>
                     <ul>
-                        <li><a href="">INICIO</a></li>
-                        <li><a href="">PROCEDIMIENTOS</a></li>
-                        <li><a href="">OPINIONES</a></li>
-                        <li><a href="">CONTACTO</a></li>
+                        <li><Link to={"/"}>INICIO</Link></li>
+                        <li><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
+                        <li><Link to={"/Opiniones"}>OPINIONES</Link></li>
+                        <li><Link to={"/Contacto"}>CONTACTO</Link></li>
                     </ul>
                 </div>
             </div>
@@ -29,8 +31,8 @@ export const Footer = () => {
             <div className="footer-container-3">
                 <h3>SEGUINOS EN LAS REDES</h3>
                 <div className="socials">
-                    <img src={instagramIcon} alt="instagram logo" />
-                    <img src={whatsappIcon} alt="whastapp logo" />
+                    <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram logo" /></a>
+                    <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={whatsappIcon} alt="whastapp logo" /></a>
                 </div>
                 <h3>ENCONTRANOS EN</h3>
                 <ul>

@@ -5,10 +5,10 @@ import { Navbar } from './components/navbar/Navbar'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import textIcon from './assets/textIcon.png'
-import arrowIcon from './assets/arrowIcon.png'
-import instagramIcon from './assets/instagramIcon.png'
-import whatsappIcon from './assets/whastappIcon.png'
+import textIcon from './assets/textIcon.webp'
+import arrowIcon from './assets/arrowIcon.webp'
+import instagramIcon from './assets/instagramIcon.webp'
+import whatsappIcon from './assets/whastappIcon.webp'
 
 function App() {
 
@@ -143,7 +143,7 @@ function App() {
         <div className="reservation-info">
           <h2>AGENDÁ TU CITA</h2>
           <p>¡Encontrá el cambio que buscás con nosotros!</p>
-          <a href="">AGENDA TU CITA</a>
+          <a href="">AGENDÁ TU CITA</a>
         </div>
 
       </div>

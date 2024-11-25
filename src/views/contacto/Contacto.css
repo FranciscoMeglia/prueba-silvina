@@ -38,6 +38,11 @@ form .container-1 input {
     border: 1px solid rgba(0, 0, 0, 0.281);
 }
 
+form .container-1 input:focus {
+    outline: none;
+    border: 1px solid var(--smothpink-color);
+}
+
 form .container-2 {
     width: 100%;
     height: auto;
@@ -55,12 +60,22 @@ form .container-2 input {
     border: 1px solid rgba(0, 0, 0, 0.281);
 }
 
+form .container-2 input:focus {
+    outline: none;
+    border: 1px solid var(--smothpink-color);
+}
+
 form .container-2 select {
     width: 48%;
     height: 40px;
     padding-left: 5px;
     margin: 0;
     border: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+form .container-2 select:focus {
+    outline: none;
+    border: 1px solid var(--smothpink-color);
 }
 
 form textarea {
@@ -73,6 +88,11 @@ form textarea {
     padding-left: 10px;
     padding-top: 10px;
     border: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+form textarea:focus {
+    outline: none;
+    border: 1px solid var(--smothpink-color);
 }
 
 form .container-3 {
