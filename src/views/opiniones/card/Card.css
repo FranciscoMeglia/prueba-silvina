@@ -72,5 +72,13 @@
     .opiniones .card-opiniones .card-opiniones-info .icon-absolute {
         left: calc(50% - 50px);
     }
+
+    .opiniones .card-opiniones .card-opiniones-img {
+        width: 100px;
+    }
+
+    .opiniones .card-opiniones .card-opiniones-info {
+        width: calc(100% - 100px);
+    }
     
 }
